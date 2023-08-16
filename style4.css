@@ -1,0 +1,20 @@
+div.container2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+div.top-label {
+  position: absolute;
+  color: Red;
+  top: 10px;
+  right: 20px;
+  z-index: 1;
+}
+div.btm-label {
+  position: absolute;
+  color: Red;
+  bottom: 10px;
+  left: 520px;
+  z-index: 2;
+}

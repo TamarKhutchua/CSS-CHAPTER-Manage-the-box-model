@@ -1,0 +1,164 @@
+p {
+  background: MistyRose;
+  width: 300px;
+}
+p.pad {
+  padding: 10px;
+}
+p.bdr {
+  border: 5px solid Tomato;
+}
+
+p.mgn {
+  margin: 20px;
+}
+ul {
+  border: 2px solid Tomato;
+}
+ul > li {
+  background: MistyRose;
+  margin: 10px;
+  padding: 5px;
+  width: 100px;
+  height: 20px;
+}
+ul.block > li {
+  display: block;
+}
+ul.inline > li {
+  display: inline;
+}
+ul.inline-block > li {
+  display: inline-block;
+}
+div#absolute {
+  width: 3in;
+  height: 0.5in;
+  background: Tomato;
+}
+div#container {
+  width: 400px;
+  height: 150px;
+  background: MistyRose;
+}
+div#percent {
+  width: 50%;
+  height: 50%;
+  background: Tomato;
+}
+div#relative {
+  width: 20em;
+  height: 2em;
+  background: LightSalmon;
+}
+p#no1 {
+  color: Tomato;
+  border: solid;
+}
+p#no2 {
+  border-top: 0.5em dotted LightSalmon;
+  border-bottom: 0.5em dashed DarkSalmon;
+}
+p#no3 {
+  border-width: 1em;
+  border-style: ridge double;
+  border-color: MistyRose;
+}
+p#no4 {
+  border: 1em outset Tomato;
+}
+p {
+  background: LightSalmon;
+}
+span {
+  background: MistyRose;
+  border: 0.3em dashed Tomato;
+}
+span#pad-h {
+  padding: 0 3em 0 3em;
+}
+span#pad-v {
+  padding: 1em 0 1em 0;
+}
+span#pad-hv {
+  padding: 1em;
+}
+div.container {
+  margin: auto;
+  border: 0.3em dashed Tomato;
+}
+div.zero {
+  margin: 0;
+  width: 10em;
+  background: LightSalmon;
+}
+div.center {
+  margin: auto;
+  border: 0.3em dashed Tomato;
+  width: 10em;
+  background: MistyRose;
+}
+div.offset {
+  margin: 20px 0 0 20px;
+  background: LightSalmon;
+}
+div {
+  width: 250px;
+  height: 100px;
+}
+
+div,
+span {
+  border: 2px solid Tomato;
+}
+div.left {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+div.right {
+  position: absolute;
+  top: 80px;
+  left: 245px;
+}
+span.offset {
+  position: relative;
+  top: 70px;
+  left: 25px;
+}
+div {
+  width: 150px;
+  padding: 10px;
+  background: Tomato;
+  color: White;
+}
+div.sticky {
+  position: sticky;
+  top: 10px;
+  margin: auto;
+}
+div.fixed {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
+/* div.container2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+}
+div.top-label {
+  position: absolute;
+  color: Red;
+  top: 10px;
+  right: 20px;
+  z-index: 1;
+}es unda iyos zemot marjvniv suratze
+div.btm-label {
+  position: absolute;
+  color: Red;
+  bottom: 10px;
+  left: 220px;
+  z-index: 2;
+}es unda iyos qvemot centrshi suratze */
